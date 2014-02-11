@@ -2,5 +2,5 @@
 
 # Build docker image
 git clone https://github.com/silasb/dokku-pg-dockerfiles /tmp/dokku-pg-dockerfiles
-docker build -q=true -t silasb/postgresql /tmp/dokku-pg-dockerfiles
+docker build -q=true -t dokku/postgresql /tmp/dokku-pg-dockerfiles
 rm -rf /tmp/dokku-pg-dockerfiles
